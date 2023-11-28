@@ -22,6 +22,7 @@ class Dog:
         if 1<= len(str(name)) <= 25:
             self.name=name 
             print(f"{name} Approved")
+            
         
         if breed not in APPROVED_BREEDS:
             print("Breed must be in list of approved breeds.")
